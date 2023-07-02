@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+
+
+ h1, a, p{
+    font-family: 'Open Sans', sans-serif;
+} 
+
+ /* p{font-family: 'Roboto', sans-serif; 
+} */
+
+.nav-links a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: grey;  
+}
+.logo-title{
+    color: grey;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background-image: url(./assets/burger-bcg.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    /* position: relative; */
+   
+}
+ header div a {
+    color: blueviolet;
+}
+header div h1{
+    /* position:absolute;
+    bottom: 40px;
+    left: -80px; */
+    color:aqua;
+    font-size: larger;
+    letter-spacing: 12px;
+    margin-top:100px  ;
+    padding-top: 4rem;
+
+}
+
+.btn1{
+    margin: 50px auto;
+    background-color:rgb(69, 69, 69) !important;
+}
+
+.quote1{
+    background-color:rgb(69, 69, 69);
+    height:150px;
+}
+
+.quote1-p{
+   padding-top:55px;
+    text-align: center;
+}
+
+article p{
+    letter-spacing: 3px;
+    font-weight: 50;
+}
+.photos img{
+width: 850px;
+height: 400px;
+}
+
+.quote2{
+    background-color: aqua;
+    height:150px ;
+    padding-top: 40px;
+}
+
+.footer{
+    background-color:rgb(69, 69, 69);
+    height:50px;  
+}
+
+.submit-btn{
+    background-color:rgb(69, 69, 69) !important; 
+}
